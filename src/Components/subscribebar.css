@@ -1,0 +1,33 @@
+.subscription-form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d3d3d3;
+    padding: 10px;
+    position: relative;
+}
+
+.subscription-form label {
+    font-weight: bold;
+}
+
+.subscription-form input[type="email"] {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    max-width: 500px;
+}
+
+.subscription-form button {
+    padding: 5px 10px;
+    background-color: #aaa;
+    border: none;
+    cursor: pointer;
+}
+
+.subscription-form button:hover {
+    background-color: #bbb;
+}
